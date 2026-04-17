@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jason Futongo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body class="font-sans flex flex-col min-h-screen">
+
+    <!-- HEADER -->
+    <header class="flex justify-between items-center px-10 py-6">
+        <a href="index.html" class="text-xl font-semibold hover:opacity-70 transition">
+            Jason Futongo
+        </a>
+
+        <nav>
+            <ul class="flex gap-8 text-gray-700">
+                <li><a href="CV.html" class="hover:underline">CV</a></li>
+                <li><a href="Projets.html" class="hover:underline">Projets</a></li>
+                <li><a href="Contact.html" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center px-10">
+
+        <section class="flex flex-col md:flex-row items-center gap-16">
+
+            <div class="w-72 h-72 rounded-full overflow-hidden">
+                <img src="IMG_3372.JPG" alt="Photo de Jason Futongo" class="w-full h-full object-cover">
+            </div>
+
+            <div class="max-w-lg">
+                <h2 class="text-5xl font-bold mb-3">Hello</h2>
+
+                <h3 class="text-xl font-semibold mb-4">A propos de moi</h3>
+
+                <p class="text-gray-700 leading-relaxed mb-6 text-justify">
+                    Je suis <span class="font-semibold">Jason Futongo</span>, un développeur web passionné 
+                    qui aime transformer des idées en solutions numériques efficaces. Calme, déterminé 
+                    et curieux, j’apprends chaque jour pour améliorer mes compétences et créer des projets 
+                    utiles et modernes.
+                </p>
+
+                <!-- BOUTONS -->
+                <div class="flex gap-5">
+                    <a href="CV.html" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-8 rounded-full">CV</a>
+                    <a href="Projets.html" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-full">Projets</a>
+                    <a href="Contact.html" class="bg-teal-400 hover:bg-teal-500 text-black font-semibold py-3 px-8 rounded-full">Contact</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="border-t mt-10 px-10 py-8 text-sm">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+
+            <div class="mb-6 md:mb-0">
+                <h4 class="font-semibold mb-1">Téléphone</h4>
+                <p class="text-gray-700">+243 823862290</p>
+            </div>
+
+            <div class="mb-6 md:mb-0">
+                <h4 class="font-semibold mb-1">Email</h4>
+                <p class="text-gray-700">jasonfutongo68@email.com</p>
+            </div>
+
+            <div class="mb-6 md:mb-0">
+                <h4 class="font-semibold mb-1">Suivez-moi</h4>
+                <div class="flex gap-4 text-xl">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+
+            <p class="text-gray-700">© 2026 By Jason Futongo</p>
+        </div>
+    </footer>
+
+</body>
+</html>
